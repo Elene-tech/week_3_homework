@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: black;
+  display: block;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h1 {
+  color: black;
+  display: block;
+  text-align: center;
+  opacity: 0.9;
+}
+h3 {
+  color: black;
+  text-align: center;
+  opacity: 0.7;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contact-link {
+  border: 1px solid blue;
+  margin-right: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+}
+.about-link {
+  border: 1px solid blue;
+  margin-right: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+}
+.mountain {
+  text-align: left;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.primary-link {
+  background-color: #6c63ff;
+  border-radius: 4px;
+  padding: 20px 15px;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+h5,
+h3 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+.back-link {
+  color: blue;
+}
+.about-me-info {
+  display: flex;
+  justify-content: center;
+}
+.post {
+  display: flex;
+  justify-content: center;
+}
+.about-paragraphs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+p {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
